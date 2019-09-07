@@ -1,0 +1,14 @@
+C:\Projects\Personal\herokutest\bin\Release\netcoreapp2.2\herokutest.deps.json
+C:\Projects\Personal\herokutest\bin\Release\netcoreapp2.2\herokutest.runtimeconfig.json
+C:\Projects\Personal\herokutest\bin\Release\netcoreapp2.2\herokutest.runtimeconfig.dev.json
+C:\Projects\Personal\herokutest\bin\Release\netcoreapp2.2\herokutest.dll
+C:\Projects\Personal\herokutest\bin\Release\netcoreapp2.2\herokutest.pdb
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.csprojAssemblyReference.cache
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.RazorAssemblyInfo.cache
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.RazorAssemblyInfo.cs
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.AssemblyInfoInputs.cache
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.AssemblyInfo.cs
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.RazorTargetAssemblyInfo.cache
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.dll
+C:\Projects\Personal\herokutest\obj\Release\netcoreapp2.2\herokutest.pdb
