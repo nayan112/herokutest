@@ -2,10 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: jetcipher/circleci-dotnet-core:3.0
+      - image: mcr.microsoft.com/dotnet/core/sdk:2.2
     steps:
       - checkout
-      - run: find .
       - run:
           name: Restore
           command: dotnet restore
@@ -17,9 +16,9 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: true
      # build image
-     - run: |         
-         docker info
-         docker build -t herokutest -f Dockerfile .
+     #- run: |         
+     #    docker info
+     #    docker build -t herokutest -f Dockerfile .
      # deploy the image
      - run: |         
          docker login --username=$HEROKU_USERNAME --password=$HEROKU_API_KEY registry.heroku.com
