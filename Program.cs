@@ -14,11 +14,19 @@ namespace herokutest
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+        public static IWebHostBuilder CreateHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>()
+                 .UseKestrel((context, options) =>
+                {
+                    var port = Environment.GetEnvironmentVariable("PORT");
+                    if (!string.IsNullOrEmpty(port))
+                    {
+                        options.ListenAnyIP(int.Parse(port));
+                    }
+                });
     }
 }
