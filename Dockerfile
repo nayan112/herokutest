@@ -13,5 +13,5 @@
 # Build runtime image
 FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR /
-COPY ./out /out .
+COPY ./out /out/ .
 CMD dotnet herokutest.dll
