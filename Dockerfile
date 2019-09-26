@@ -1,5 +1,5 @@
     
-#FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+#FROM microsoft/dotnet:2.2-sdk AS build-env
 #WORKDIR /
 
 # Copy csproj and restore as distinct layers
@@ -13,5 +13,5 @@
 # Build runtime image
 FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR /
-COPY ./out /out/ .
+COPY out out ./
 CMD dotnet herokutest.dll
