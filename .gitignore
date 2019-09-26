@@ -5,6 +5,5 @@
 /.vs/herokutest
 obj/**/*
 bin/**/*
-/herokutest.csproj.user
 .vscode/**/*
 out/**/*
