@@ -3,8 +3,8 @@
 ################################################################################
 
 /.vs/herokutest
-/obj/Debug/netcoreapp2.2
-/bin/Debug/netcoreapp2.2
+obj/**/*
+bin/**/*
 /herokutest.csproj.user
-.vscode/tasks.json
-.vscode/launch.json
+.vscode/**/*
+out/**/*
