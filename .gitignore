@@ -6,3 +6,5 @@
 /obj/Debug/netcoreapp2.2
 /bin/Debug/netcoreapp2.2
 /herokutest.csproj.user
+.vscode/tasks.json
+.vscode/launch.json
