@@ -18,3 +18,10 @@ jobs:
       
     - name: Release with dotnet
       run: dotnet publish -c Release -o out
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        # Artifact name
+        name: herokutest
+        # Directory containing files to upload
+        path: /home/runner/work/herokutest/herokutest/out/
